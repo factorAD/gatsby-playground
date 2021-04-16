@@ -1,5 +1,13 @@
 import React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/Layout"
+import Images from "../examples/images"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <Layout>
+      <h1>Home page</h1>
+      <Images />
+    </Layout>
+  )
 }
